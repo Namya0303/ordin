@@ -45,11 +45,8 @@ var x = setInterval(function() {
 
 //Event Head Contact Modal
 
-function con() {
-  var eventhead = document.getElementById("eventhead");
-  if (eventhead.style.display === "none") {
-    eventhead.style.display = "block";
-  } else {
-    eventhead.style.display = "none";
-  }
-}
+$(document).ready(function(){
+    $(".dead").click(function(){
+        $(".eventhead").slideToggle("slow");
+    });
+});
