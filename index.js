@@ -46,7 +46,7 @@ var x = setInterval(function() {
 //Event Head Contact Modal
 
 $(document).ready(function(){
-    $(".dead").click(function(){
-        $(".eventhead").slideToggle("slow");
+    $(".thisguy").click(function(){
+        $("table").slideToggle();
     });
 });
